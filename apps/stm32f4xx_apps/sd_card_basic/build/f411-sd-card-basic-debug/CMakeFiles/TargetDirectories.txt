@@ -1,0 +1,12 @@
+C:/Project/stm32_workspace/project_stm32f4x/build/f411-sd-card-basic-debug/CMakeFiles/app_sd_card_basic.dir
+C:/Project/stm32_workspace/project_stm32f4x/build/f411-sd-card-basic-debug/CMakeFiles/sd_card_basic_F411CEU6.dir
+C:/Project/stm32_workspace/project_stm32f4x/build/f411-sd-card-basic-debug/CMakeFiles/flash.dir
+C:/Project/stm32_workspace/project_stm32f4x/build/f411-sd-card-basic-debug/CMakeFiles/edit_cache.dir
+C:/Project/stm32_workspace/project_stm32f4x/build/f411-sd-card-basic-debug/CMakeFiles/rebuild_cache.dir
+C:/Project/stm32_workspace/project_stm32f4x/build/f411-sd-card-basic-debug/board_bsp/CMakeFiles/board_runtime.dir
+C:/Project/stm32_workspace/project_stm32f4x/build/f411-sd-card-basic-debug/board_bsp/CMakeFiles/board_vectors.dir
+C:/Project/stm32_workspace/project_stm32f4x/build/f411-sd-card-basic-debug/board_bsp/CMakeFiles/cmsis.dir
+C:/Project/stm32_workspace/project_stm32f4x/build/f411-sd-card-basic-debug/board_bsp/CMakeFiles/hal.dir
+C:/Project/stm32_workspace/project_stm32f4x/build/f411-sd-card-basic-debug/board_bsp/CMakeFiles/core.dir
+C:/Project/stm32_workspace/project_stm32f4x/build/f411-sd-card-basic-debug/board_bsp/CMakeFiles/edit_cache.dir
+C:/Project/stm32_workspace/project_stm32f4x/build/f411-sd-card-basic-debug/board_bsp/CMakeFiles/rebuild_cache.dir

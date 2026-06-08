@@ -1,0 +1,115 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Debug LED Blink (F411CEU6)",
+      "type": "cortex-debug",
+      "request": "launch",
+      "servertype": "openocd",
+      "serverpath": "${workspaceFolder}/toolchains/xpack-openocd-0.12.0-7/bin/openocd.exe",
+      "gdbPath": "${workspaceFolder}/toolchains/armcc/bin/arm-none-eabi-gdb.exe",
+      "executable": "${workspaceFolder}/build/f411-led-blink-debug/led_blink_F411CEU6.elf",
+      "configFiles": [
+        "interface/stlink.cfg",
+        "target/stm32f4x.cfg"
+      ],
+      "searchDir": [
+        "${workspaceFolder}/toolchains/xpack-openocd-0.12.0-7/openocd/scripts"
+      ],
+      "liveWatch": {
+        "enabled": true,
+        "samplesPerSecond": 4
+      },
+      "runToEntryPoint": "main",
+      "showDevDebugOutput": "none"
+    },
+    {
+      "name": "Debug SD Card (F411CEU6)",
+      "type": "cortex-debug",
+      "request": "launch",
+      "servertype": "openocd",
+      "serverpath": "${workspaceFolder}/toolchains/xpack-openocd-0.12.0-7/bin/openocd.exe",
+      "gdbPath": "${workspaceFolder}/toolchains/armcc/bin/arm-none-eabi-gdb.exe",
+      "executable": "${workspaceFolder}/build/f411-sd-card-debug/sd_card_F411CEU6.elf",
+      "configFiles": [
+        "interface/stlink.cfg",
+        "target/stm32f4x.cfg"
+      ],
+      "searchDir": [
+        "${workspaceFolder}/toolchains/xpack-openocd-0.12.0-7/openocd/scripts"
+      ],
+      "liveWatch": {
+        "enabled": true,
+        "samplesPerSecond": 4
+      },
+      "runToEntryPoint": "main",
+      "showDevDebugOutput": "none"
+    },
+    {
+      "name": "Debug SD Card Basic (F411CEU6)",
+      "type": "cortex-debug",
+      "request": "launch",
+      "servertype": "openocd",
+      "serverpath": "${workspaceFolder}/toolchains/xpack-openocd-0.12.0-7/bin/openocd.exe",
+      "gdbPath": "${workspaceFolder}/toolchains/armcc/bin/arm-none-eabi-gdb.exe",
+      "executable": "${workspaceFolder}/build/f411-sd-card-basic-debug/sd_card_basic_F411CEU6.elf",
+      "configFiles": [
+        "interface/stlink.cfg",
+        "target/stm32f4x.cfg"
+      ],
+      "searchDir": [
+        "${workspaceFolder}/toolchains/xpack-openocd-0.12.0-7/openocd/scripts"
+      ],
+      "liveWatch": {
+        "enabled": true,
+        "samplesPerSecond": 4
+      },
+      "runToEntryPoint": "main",
+      "showDevDebugOutput": "none"
+    },
+    {
+      "name": "Debug CAN Basic (F103VET6)",
+      "type": "cortex-debug",
+      "request": "launch",
+      "servertype": "openocd",
+      "serverpath": "${workspaceFolder}/toolchains/xpack-openocd-0.12.0-7/bin/openocd.exe",
+      "gdbPath": "${workspaceFolder}/toolchains/armcc/bin/arm-none-eabi-gdb.exe",
+      "executable": "${workspaceFolder}/build/f103-can-basic-debug/can_basic_F103VET6.elf",
+      "configFiles": [
+        "interface/stlink.cfg",
+        "target/stm32f1x.cfg"
+      ],
+      "searchDir": [
+        "${workspaceFolder}/toolchains/xpack-openocd-0.12.0-7/openocd/scripts"
+      ],
+      "liveWatch": {
+        "enabled": true,
+        "samplesPerSecond": 4
+      },
+      "runToEntryPoint": "main",
+      "showDevDebugOutput": "none"
+    },
+    {
+      "name": "Debug LED Blink (G474RET6)",
+      "type": "cortex-debug",
+      "request": "launch",
+      "servertype": "openocd",
+      "serverpath": "${workspaceFolder}/toolchains/xpack-openocd-0.12.0-7/bin/openocd.exe",
+      "gdbPath": "${workspaceFolder}/toolchains/armcc/bin/arm-none-eabi-gdb.exe",
+      "executable": "${workspaceFolder}/build/g474-led-blink-debug/led_blink_G474RET6.elf",
+      "configFiles": [
+        "interface/stlink.cfg",
+        "target/stm32g4x.cfg"
+      ],
+      "searchDir": [
+        "${workspaceFolder}/toolchains/xpack-openocd-0.12.0-7/openocd/scripts"
+      ],
+      "liveWatch": {
+        "enabled": true,
+        "samplesPerSecond": 4
+      },
+      "runToEntryPoint": "main",
+      "showDevDebugOutput": "none"
+    }
+  ]
+}

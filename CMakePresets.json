@@ -1,0 +1,216 @@
+{
+  "version": 3,
+  "cmakeMinimumRequired": {
+    "major": 3,
+    "minor": 21,
+    "patch": 0
+  },
+  "configurePresets": [
+    {
+      "name": "base",
+      "hidden": true,
+      "generator": "Ninja",
+      "cacheVariables": {
+        "CMAKE_TOOLCHAIN_FILE": "${sourceDir}/toolchains/toolchains.cmake"
+      }
+    },
+    {
+      "name": "host-windows",
+      "hidden": true,
+      "inherits": "base",
+      "cacheVariables": {
+        "TOOLCHAIN_BIN":      "${sourceDir}/toolchains/armcc/bin",
+        "CMAKE_MAKE_PROGRAM": "${sourceDir}/toolchains/ninja-win/ninja.exe",
+        "OPENOCD_BIN":        "${sourceDir}/toolchains/xpack-openocd-0.12.0-7/bin",
+        "OPENOCD_SCRIPTS":    "${sourceDir}/toolchains/xpack-openocd-0.12.0-7/openocd/scripts"
+      }
+    },
+    {
+      "name": "board-f411ceu6",
+      "hidden": true,
+      "cacheVariables": {
+        "DRIVER_BOARD":        "F411CEU6",
+        "OPENOCD_TARGET_CFG": "target/stm32f4x.cfg"
+      }
+    },
+    {
+      "name": "board-f103vet6",
+      "hidden": true,
+      "cacheVariables": {
+        "DRIVER_BOARD":        "F103VET6",
+        "OPENOCD_TARGET_CFG": "target/stm32f1x.cfg"
+      }
+    },
+    {
+      "name": "board-g474ret6",
+      "hidden": true,
+      "cacheVariables": {
+        "DRIVER_BOARD":        "G474RET6",
+        "OPENOCD_TARGET_CFG": "target/stm32g4x.cfg"
+      }
+    },
+    {
+      "name": "build-debug",
+      "hidden": true,
+      "cacheVariables": {
+        "CMAKE_BUILD_TYPE": "Debug"
+      }
+    },
+    {
+      "name": "build-release",
+      "hidden": true,
+      "cacheVariables": {
+        "CMAKE_BUILD_TYPE": "Release"
+      }
+    },
+    {
+      "name": "app-led-blink",
+      "hidden": true,
+      "cacheVariables": {
+        "APP_NAME": "led_blink"
+      }
+    },
+    {
+      "name": "app-sd-card",
+      "hidden": true,
+      "cacheVariables": {
+        "APP_NAME": "sd_card"
+      }
+    },
+    {
+      "name": "app-sd-card-basic",
+      "hidden": true,
+      "cacheVariables": {
+        "APP_NAME": "sd_card_basic"
+      }
+    },
+    {
+      "name": "app-can-basic",
+      "hidden": true,
+      "cacheVariables": {
+        "APP_NAME": "can_basic"
+      }
+    },
+    {
+      "name": "f411-led-blink-debug-win",
+      "displayName": "F411CEU6 | LED Blink | Debug | Windows",
+      "description": "STM32F411CEUx LED Blink — Debug build — Windows host",
+      "inherits": [
+        "host-windows",
+        "board-f411ceu6",
+        "build-debug",
+        "app-led-blink"
+      ],
+      "binaryDir": "${sourceDir}/build/f411-led-blink-debug"
+    },
+    {
+      "name": "f411-led-blink-release-win",
+      "displayName": "F411CEU6 | LED Blink | Release | Windows",
+      "description": "STM32F411CEUx LED Blink — Release build — Windows host",
+      "inherits": [
+        "host-windows",
+        "board-f411ceu6",
+        "build-release",
+        "app-led-blink"
+      ],
+      "binaryDir": "${sourceDir}/build/f411-led-blink-release"
+    },
+    {
+      "name": "f411-sd-card-debug-win",
+      "displayName": "F411CEU6 | SD Card | Debug | Windows",
+      "description": "STM32F411CEUx SD Card — Debug build — Windows host",
+      "inherits": [
+        "host-windows",
+        "board-f411ceu6",
+        "build-debug",
+        "app-sd-card"
+      ],
+      "binaryDir": "${sourceDir}/build/f411-sd-card-debug"
+    },
+    {
+      "name": "f411-sd-card-basic-debug-win",
+      "displayName": "F411CEU6 | SD Card Basic (SPI Polling) | Debug | Windows",
+      "description": "STM32F411CEUx SD Card raw SPI polling — Debug build — Windows host",
+      "inherits": [
+        "host-windows",
+        "board-f411ceu6",
+        "build-debug",
+        "app-sd-card-basic"
+      ],
+      "binaryDir": "${sourceDir}/build/f411-sd-card-basic-debug"
+    },
+    {
+      "name": "f103-can-basic-debug-win",
+      "displayName": "F103VET6 | CAN Basic | Debug | Windows",
+      "description": "STM32F103VET6 CAN Basic — Debug build — Windows host",
+      "inherits": [
+        "host-windows",
+        "board-f103vet6",
+        "build-debug",
+        "app-can-basic"
+      ],
+      "binaryDir": "${sourceDir}/build/f103-can-basic-debug"
+    },
+    {
+      "name": "g474-led-blink-debug-win",
+      "displayName": "G474RET6 | LED Blink | Debug | Windows",
+      "description": "STM32G474RET6 LED Blink — Debug build — Windows host",
+      "inherits": [
+        "host-windows",
+        "board-g474ret6",
+        "build-debug",
+        "app-led-blink"
+      ],
+      "binaryDir": "${sourceDir}/build/g474-led-blink-debug"
+    },
+    {
+      "name": "g474-can-basic-debug-win",
+      "displayName": "G474RET6 | CAN Basic | Debug | Windows",
+      "description": "STM32G474RET6 CAN Basic — Debug build — Windows host",
+      "inherits": [
+        "host-windows",
+        "board-g474ret6",
+        "build-debug",
+        "app-can-basic"
+      ],
+      "binaryDir": "${sourceDir}/build/g474-can-basic-debug"
+    }
+  ],
+  "buildPresets": [
+    {
+      "name": "f411-led-blink-debug-win",
+      "configurePreset": "f411-led-blink-debug-win",
+      "description": "Build Debug"
+    },
+    {
+      "name": "f411-led-blink-release-win",
+      "configurePreset": "f411-led-blink-release-win",
+      "description": "Build Release"
+    },
+    {
+      "name": "f411-sd-card-debug-win",
+      "configurePreset": "f411-sd-card-debug-win",
+      "description": "Build SD Card Debug"
+    },
+    {
+      "name": "f411-sd-card-basic-debug-win",
+      "configurePreset": "f411-sd-card-basic-debug-win",
+      "description": "Build SD Card Basic (SPI Polling) Debug"
+    },
+    {
+      "name": "f103-can-basic-debug-win",
+      "configurePreset": "f103-can-basic-debug-win",
+      "description": "Build CAN Basic Debug"
+    },
+    {
+      "name": "g474-led-blink-debug-win",
+      "configurePreset": "g474-led-blink-debug-win",
+      "description": "Build G474 Debug"
+    },
+    {
+      "name": "g474-can-basic-debug-win",
+      "configurePreset": "g474-can-basic-debug-win",
+      "description": "Build G474 CAN Basic Debug"
+    }
+  ]
+}

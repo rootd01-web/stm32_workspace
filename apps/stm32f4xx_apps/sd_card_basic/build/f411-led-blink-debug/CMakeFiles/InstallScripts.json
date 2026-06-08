@@ -1,0 +1,9 @@
+{
+	"InstallScripts" : 
+	[
+		"C:/Project/stm32_workspace/project_stm32f4x/build/f411-led-blink-debug/cmake_install.cmake",
+		"C:/Project/stm32_workspace/project_stm32f4x/build/f411-led-blink-debug/board_bsp/cmake_install.cmake",
+		"C:/Project/stm32_workspace/project_stm32f4x/build/f411-led-blink-debug/fatfs/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

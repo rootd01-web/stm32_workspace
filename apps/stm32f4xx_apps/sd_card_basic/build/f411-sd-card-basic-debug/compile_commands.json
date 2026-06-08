@@ -1,0 +1,152 @@
+[
+{
+  "directory": "C:/Project/stm32_workspace/project_stm32f4x/build/f411-sd-card-basic-debug",
+  "command": "C:\\Project\\stm32_workspace\\project_stm32f4x\\toolchains\\armcc\\bin\\arm-none-eabi-gcc.exe -DSTM32F411xE -DUSE_HAL_DRIVER -IC:/Project/stm32_workspace/project_stm32f4x/apps/sd_card_basic -IC:/Project/stm32_workspace/project_stm32f4x/drivers/boards/F411CEU6/Drivers/CMSIS/Include -IC:/Project/stm32_workspace/project_stm32f4x/drivers/boards/F411CEU6/Drivers/CMSIS/Device/ST/STM32F4xx/Include -IC:/Project/stm32_workspace/project_stm32f4x/drivers/boards/F411CEU6/Drivers/STM32F4xx_HAL_Driver/Inc -IC:/Project/stm32_workspace/project_stm32f4x/drivers/boards/F411CEU6/Core/Inc -g -mcpu=cortex-m4 -mthumb -mfpu=fpv4-sp-d16 -mfloat-abi=hard -ffunction-sections -fdata-sections -Wall -Wextra -Wno-unused-parameter -Og -g3 -ggdb -o CMakeFiles\\app_sd_card_basic.dir\\apps\\sd_card_basic\\app.c.obj -c C:\\Project\\stm32_workspace\\project_stm32f4x\\apps\\sd_card_basic\\app.c",
+  "file": "C:\\Project\\stm32_workspace\\project_stm32f4x\\apps\\sd_card_basic\\app.c",
+  "output": "CMakeFiles\\app_sd_card_basic.dir\\apps\\sd_card_basic\\app.c.obj"
+},
+{
+  "directory": "C:/Project/stm32_workspace/project_stm32f4x/build/f411-sd-card-basic-debug",
+  "command": "C:\\Project\\stm32_workspace\\project_stm32f4x\\toolchains\\armcc\\bin\\arm-none-eabi-gcc.exe -DSTM32F411xE -DUSE_HAL_DRIVER -IC:/Project/stm32_workspace/project_stm32f4x/apps/sd_card_basic -IC:/Project/stm32_workspace/project_stm32f4x/drivers/boards/F411CEU6/Drivers/CMSIS/Include -IC:/Project/stm32_workspace/project_stm32f4x/drivers/boards/F411CEU6/Drivers/CMSIS/Device/ST/STM32F4xx/Include -IC:/Project/stm32_workspace/project_stm32f4x/drivers/boards/F411CEU6/Drivers/STM32F4xx_HAL_Driver/Inc -IC:/Project/stm32_workspace/project_stm32f4x/drivers/boards/F411CEU6/Core/Inc -g -mcpu=cortex-m4 -mthumb -mfpu=fpv4-sp-d16 -mfloat-abi=hard -ffunction-sections -fdata-sections -Wall -Wextra -Wno-unused-parameter -Og -g3 -ggdb -o CMakeFiles\\sd_card_basic_F411CEU6.dir\\drivers\\boards\\F411CEU6\\Core\\Src\\main.c.obj -c C:\\Project\\stm32_workspace\\project_stm32f4x\\drivers\\boards\\F411CEU6\\Core\\Src\\main.c",
+  "file": "C:\\Project\\stm32_workspace\\project_stm32f4x\\drivers\\boards\\F411CEU6\\Core\\Src\\main.c",
+  "output": "CMakeFiles\\sd_card_basic_F411CEU6.dir\\drivers\\boards\\F411CEU6\\Core\\Src\\main.c.obj"
+},
+{
+  "directory": "C:/Project/stm32_workspace/project_stm32f4x/build/f411-sd-card-basic-debug",
+  "command": "C:\\Project\\stm32_workspace\\project_stm32f4x\\toolchains\\armcc\\bin\\arm-none-eabi-gcc.exe -DSTM32F411xE -DUSE_HAL_DRIVER -IC:/Project/stm32_workspace/project_stm32f4x/drivers/boards/F411CEU6/Drivers/CMSIS/Include -IC:/Project/stm32_workspace/project_stm32f4x/drivers/boards/F411CEU6/Drivers/CMSIS/Device/ST/STM32F4xx/Include -IC:/Project/stm32_workspace/project_stm32f4x/drivers/boards/F411CEU6/Drivers/STM32F4xx_HAL_Driver/Inc -IC:/Project/stm32_workspace/project_stm32f4x/drivers/boards/F411CEU6/Core/Inc -g -mcpu=cortex-m4 -mthumb -mfpu=fpv4-sp-d16 -mfloat-abi=hard -ffunction-sections -fdata-sections -Wall -Wextra -Wno-unused-parameter -Og -g3 -ggdb -Wno-missing-prototypes -Wno-unused-parameter -o board_bsp\\CMakeFiles\\board_runtime.dir\\Core\\Src\\syscalls.c.obj -c C:\\Project\\stm32_workspace\\project_stm32f4x\\drivers\\boards\\F411CEU6\\Core\\Src\\syscalls.c",
+  "file": "C:\\Project\\stm32_workspace\\project_stm32f4x\\drivers\\boards\\F411CEU6\\Core\\Src\\syscalls.c",
+  "output": "board_bsp\\CMakeFiles\\board_runtime.dir\\Core\\Src\\syscalls.c.obj"
+},
+{
+  "directory": "C:/Project/stm32_workspace/project_stm32f4x/build/f411-sd-card-basic-debug",
+  "command": "C:\\Project\\stm32_workspace\\project_stm32f4x\\toolchains\\armcc\\bin\\arm-none-eabi-gcc.exe -DSTM32F411xE -DUSE_HAL_DRIVER -IC:/Project/stm32_workspace/project_stm32f4x/drivers/boards/F411CEU6/Drivers/CMSIS/Include -IC:/Project/stm32_workspace/project_stm32f4x/drivers/boards/F411CEU6/Drivers/CMSIS/Device/ST/STM32F4xx/Include -IC:/Project/stm32_workspace/project_stm32f4x/drivers/boards/F411CEU6/Drivers/STM32F4xx_HAL_Driver/Inc -IC:/Project/stm32_workspace/project_stm32f4x/drivers/boards/F411CEU6/Core/Inc -g -mcpu=cortex-m4 -mthumb -mfpu=fpv4-sp-d16 -mfloat-abi=hard -ffunction-sections -fdata-sections -Wall -Wextra -Wno-unused-parameter -Og -g3 -ggdb -Wno-missing-prototypes -Wno-unused-parameter -o board_bsp\\CMakeFiles\\board_runtime.dir\\Core\\Src\\sysmem.c.obj -c C:\\Project\\stm32_workspace\\project_stm32f4x\\drivers\\boards\\F411CEU6\\Core\\Src\\sysmem.c",
+  "file": "C:\\Project\\stm32_workspace\\project_stm32f4x\\drivers\\boards\\F411CEU6\\Core\\Src\\sysmem.c",
+  "output": "board_bsp\\CMakeFiles\\board_runtime.dir\\Core\\Src\\sysmem.c.obj"
+},
+{
+  "directory": "C:/Project/stm32_workspace/project_stm32f4x/build/f411-sd-card-basic-debug",
+  "command": "C:\\Project\\stm32_workspace\\project_stm32f4x\\toolchains\\armcc\\bin\\arm-none-eabi-gcc.exe -DSTM32F411xE -DUSE_HAL_DRIVER -IC:/Project/stm32_workspace/project_stm32f4x/drivers/boards/F411CEU6/Drivers/CMSIS/Include -IC:/Project/stm32_workspace/project_stm32f4x/drivers/boards/F411CEU6/Drivers/CMSIS/Device/ST/STM32F4xx/Include -IC:/Project/stm32_workspace/project_stm32f4x/drivers/boards/F411CEU6/Drivers/STM32F4xx_HAL_Driver/Inc -IC:/Project/stm32_workspace/project_stm32f4x/drivers/boards/F411CEU6/Core/Inc -g -mcpu=cortex-m4 -mthumb -mfpu=fpv4-sp-d16 -mfloat-abi=hard -ffunction-sections -fdata-sections -Wall -Wextra -Wno-unused-parameter -Og -g3 -ggdb -o board_bsp\\CMakeFiles\\board_vectors.dir\\Core\\Startup\\startup_stm32f411ceux.s.obj -c C:\\Project\\stm32_workspace\\project_stm32f4x\\drivers\\boards\\F411CEU6\\Core\\Startup\\startup_stm32f411ceux.s",
+  "file": "C:\\Project\\stm32_workspace\\project_stm32f4x\\drivers\\boards\\F411CEU6\\Core\\Startup\\startup_stm32f411ceux.s",
+  "output": "board_bsp\\CMakeFiles\\board_vectors.dir\\Core\\Startup\\startup_stm32f411ceux.s.obj"
+},
+{
+  "directory": "C:/Project/stm32_workspace/project_stm32f4x/build/f411-sd-card-basic-debug",
+  "command": "C:\\Project\\stm32_workspace\\project_stm32f4x\\toolchains\\armcc\\bin\\arm-none-eabi-gcc.exe -DSTM32F411xE -DUSE_HAL_DRIVER -IC:/Project/stm32_workspace/project_stm32f4x/drivers/boards/F411CEU6/Drivers/CMSIS/Include -IC:/Project/stm32_workspace/project_stm32f4x/drivers/boards/F411CEU6/Drivers/CMSIS/Device/ST/STM32F4xx/Include -IC:/Project/stm32_workspace/project_stm32f4x/drivers/boards/F411CEU6/Drivers/STM32F4xx_HAL_Driver/Inc -IC:/Project/stm32_workspace/project_stm32f4x/drivers/boards/F411CEU6/Core/Inc -g -mcpu=cortex-m4 -mthumb -mfpu=fpv4-sp-d16 -mfloat-abi=hard -ffunction-sections -fdata-sections -Wall -Wextra -Wno-unused-parameter -Og -g3 -ggdb -o board_bsp\\CMakeFiles\\board_vectors.dir\\Core\\Src\\stm32f4xx_it.c.obj -c C:\\Project\\stm32_workspace\\project_stm32f4x\\drivers\\boards\\F411CEU6\\Core\\Src\\stm32f4xx_it.c",
+  "file": "C:\\Project\\stm32_workspace\\project_stm32f4x\\drivers\\boards\\F411CEU6\\Core\\Src\\stm32f4xx_it.c",
+  "output": "board_bsp\\CMakeFiles\\board_vectors.dir\\Core\\Src\\stm32f4xx_it.c.obj"
+},
+{
+  "directory": "C:/Project/stm32_workspace/project_stm32f4x/build/f411-sd-card-basic-debug",
+  "command": "C:\\Project\\stm32_workspace\\project_stm32f4x\\toolchains\\armcc\\bin\\arm-none-eabi-gcc.exe -DSTM32F411xE -DUSE_HAL_DRIVER -IC:/Project/stm32_workspace/project_stm32f4x/drivers/boards/F411CEU6/Drivers/CMSIS/Include -IC:/Project/stm32_workspace/project_stm32f4x/drivers/boards/F411CEU6/Drivers/CMSIS/Device/ST/STM32F4xx/Include -IC:/Project/stm32_workspace/project_stm32f4x/drivers/boards/F411CEU6/Drivers/STM32F4xx_HAL_Driver/Inc -IC:/Project/stm32_workspace/project_stm32f4x/drivers/boards/F411CEU6/Core/Inc -g -mcpu=cortex-m4 -mthumb -mfpu=fpv4-sp-d16 -mfloat-abi=hard -ffunction-sections -fdata-sections -Wall -Wextra -Wno-unused-parameter -Og -g3 -ggdb -o board_bsp\\CMakeFiles\\cmsis.dir\\Core\\Src\\system_stm32f4xx.c.obj -c C:\\Project\\stm32_workspace\\project_stm32f4x\\drivers\\boards\\F411CEU6\\Core\\Src\\system_stm32f4xx.c",
+  "file": "C:\\Project\\stm32_workspace\\project_stm32f4x\\drivers\\boards\\F411CEU6\\Core\\Src\\system_stm32f4xx.c",
+  "output": "board_bsp\\CMakeFiles\\cmsis.dir\\Core\\Src\\system_stm32f4xx.c.obj"
+},
+{
+  "directory": "C:/Project/stm32_workspace/project_stm32f4x/build/f411-sd-card-basic-debug",
+  "command": "C:\\Project\\stm32_workspace\\project_stm32f4x\\toolchains\\armcc\\bin\\arm-none-eabi-gcc.exe -DSTM32F411xE -DUSE_HAL_DRIVER -IC:/Project/stm32_workspace/project_stm32f4x/drivers/boards/F411CEU6/Drivers/CMSIS/Include -IC:/Project/stm32_workspace/project_stm32f4x/drivers/boards/F411CEU6/Drivers/CMSIS/Device/ST/STM32F4xx/Include -IC:/Project/stm32_workspace/project_stm32f4x/drivers/boards/F411CEU6/Drivers/STM32F4xx_HAL_Driver/Inc -IC:/Project/stm32_workspace/project_stm32f4x/drivers/boards/F411CEU6/Core/Inc -g -mcpu=cortex-m4 -mthumb -mfpu=fpv4-sp-d16 -mfloat-abi=hard -ffunction-sections -fdata-sections -Wall -Wextra -Wno-unused-parameter -Og -g3 -ggdb -o board_bsp\\CMakeFiles\\hal.dir\\Drivers\\STM32F4xx_HAL_Driver\\Src\\stm32f4xx_hal.c.obj -c C:\\Project\\stm32_workspace\\project_stm32f4x\\drivers\\boards\\F411CEU6\\Drivers\\STM32F4xx_HAL_Driver\\Src\\stm32f4xx_hal.c",
+  "file": "C:\\Project\\stm32_workspace\\project_stm32f4x\\drivers\\boards\\F411CEU6\\Drivers\\STM32F4xx_HAL_Driver\\Src\\stm32f4xx_hal.c",
+  "output": "board_bsp\\CMakeFiles\\hal.dir\\Drivers\\STM32F4xx_HAL_Driver\\Src\\stm32f4xx_hal.c.obj"
+},
+{
+  "directory": "C:/Project/stm32_workspace/project_stm32f4x/build/f411-sd-card-basic-debug",
+  "command": "C:\\Project\\stm32_workspace\\project_stm32f4x\\toolchains\\armcc\\bin\\arm-none-eabi-gcc.exe -DSTM32F411xE -DUSE_HAL_DRIVER -IC:/Project/stm32_workspace/project_stm32f4x/drivers/boards/F411CEU6/Drivers/CMSIS/Include -IC:/Project/stm32_workspace/project_stm32f4x/drivers/boards/F411CEU6/Drivers/CMSIS/Device/ST/STM32F4xx/Include -IC:/Project/stm32_workspace/project_stm32f4x/drivers/boards/F411CEU6/Drivers/STM32F4xx_HAL_Driver/Inc -IC:/Project/stm32_workspace/project_stm32f4x/drivers/boards/F411CEU6/Core/Inc -g -mcpu=cortex-m4 -mthumb -mfpu=fpv4-sp-d16 -mfloat-abi=hard -ffunction-sections -fdata-sections -Wall -Wextra -Wno-unused-parameter -Og -g3 -ggdb -o board_bsp\\CMakeFiles\\hal.dir\\Drivers\\STM32F4xx_HAL_Driver\\Src\\stm32f4xx_hal_cortex.c.obj -c C:\\Project\\stm32_workspace\\project_stm32f4x\\drivers\\boards\\F411CEU6\\Drivers\\STM32F4xx_HAL_Driver\\Src\\stm32f4xx_hal_cortex.c",
+  "file": "C:\\Project\\stm32_workspace\\project_stm32f4x\\drivers\\boards\\F411CEU6\\Drivers\\STM32F4xx_HAL_Driver\\Src\\stm32f4xx_hal_cortex.c",
+  "output": "board_bsp\\CMakeFiles\\hal.dir\\Drivers\\STM32F4xx_HAL_Driver\\Src\\stm32f4xx_hal_cortex.c.obj"
+},
+{
+  "directory": "C:/Project/stm32_workspace/project_stm32f4x/build/f411-sd-card-basic-debug",
+  "command": "C:\\Project\\stm32_workspace\\project_stm32f4x\\toolchains\\armcc\\bin\\arm-none-eabi-gcc.exe -DSTM32F411xE -DUSE_HAL_DRIVER -IC:/Project/stm32_workspace/project_stm32f4x/drivers/boards/F411CEU6/Drivers/CMSIS/Include -IC:/Project/stm32_workspace/project_stm32f4x/drivers/boards/F411CEU6/Drivers/CMSIS/Device/ST/STM32F4xx/Include -IC:/Project/stm32_workspace/project_stm32f4x/drivers/boards/F411CEU6/Drivers/STM32F4xx_HAL_Driver/Inc -IC:/Project/stm32_workspace/project_stm32f4x/drivers/boards/F411CEU6/Core/Inc -g -mcpu=cortex-m4 -mthumb -mfpu=fpv4-sp-d16 -mfloat-abi=hard -ffunction-sections -fdata-sections -Wall -Wextra -Wno-unused-parameter -Og -g3 -ggdb -o board_bsp\\CMakeFiles\\hal.dir\\Drivers\\STM32F4xx_HAL_Driver\\Src\\stm32f4xx_hal_dma.c.obj -c C:\\Project\\stm32_workspace\\project_stm32f4x\\drivers\\boards\\F411CEU6\\Drivers\\STM32F4xx_HAL_Driver\\Src\\stm32f4xx_hal_dma.c",
+  "file": "C:\\Project\\stm32_workspace\\project_stm32f4x\\drivers\\boards\\F411CEU6\\Drivers\\STM32F4xx_HAL_Driver\\Src\\stm32f4xx_hal_dma.c",
+  "output": "board_bsp\\CMakeFiles\\hal.dir\\Drivers\\STM32F4xx_HAL_Driver\\Src\\stm32f4xx_hal_dma.c.obj"
+},
+{
+  "directory": "C:/Project/stm32_workspace/project_stm32f4x/build/f411-sd-card-basic-debug",
+  "command": "C:\\Project\\stm32_workspace\\project_stm32f4x\\toolchains\\armcc\\bin\\arm-none-eabi-gcc.exe -DSTM32F411xE -DUSE_HAL_DRIVER -IC:/Project/stm32_workspace/project_stm32f4x/drivers/boards/F411CEU6/Drivers/CMSIS/Include -IC:/Project/stm32_workspace/project_stm32f4x/drivers/boards/F411CEU6/Drivers/CMSIS/Device/ST/STM32F4xx/Include -IC:/Project/stm32_workspace/project_stm32f4x/drivers/boards/F411CEU6/Drivers/STM32F4xx_HAL_Driver/Inc -IC:/Project/stm32_workspace/project_stm32f4x/drivers/boards/F411CEU6/Core/Inc -g -mcpu=cortex-m4 -mthumb -mfpu=fpv4-sp-d16 -mfloat-abi=hard -ffunction-sections -fdata-sections -Wall -Wextra -Wno-unused-parameter -Og -g3 -ggdb -o board_bsp\\CMakeFiles\\hal.dir\\Drivers\\STM32F4xx_HAL_Driver\\Src\\stm32f4xx_hal_dma_ex.c.obj -c C:\\Project\\stm32_workspace\\project_stm32f4x\\drivers\\boards\\F411CEU6\\Drivers\\STM32F4xx_HAL_Driver\\Src\\stm32f4xx_hal_dma_ex.c",
+  "file": "C:\\Project\\stm32_workspace\\project_stm32f4x\\drivers\\boards\\F411CEU6\\Drivers\\STM32F4xx_HAL_Driver\\Src\\stm32f4xx_hal_dma_ex.c",
+  "output": "board_bsp\\CMakeFiles\\hal.dir\\Drivers\\STM32F4xx_HAL_Driver\\Src\\stm32f4xx_hal_dma_ex.c.obj"
+},
+{
+  "directory": "C:/Project/stm32_workspace/project_stm32f4x/build/f411-sd-card-basic-debug",
+  "command": "C:\\Project\\stm32_workspace\\project_stm32f4x\\toolchains\\armcc\\bin\\arm-none-eabi-gcc.exe -DSTM32F411xE -DUSE_HAL_DRIVER -IC:/Project/stm32_workspace/project_stm32f4x/drivers/boards/F411CEU6/Drivers/CMSIS/Include -IC:/Project/stm32_workspace/project_stm32f4x/drivers/boards/F411CEU6/Drivers/CMSIS/Device/ST/STM32F4xx/Include -IC:/Project/stm32_workspace/project_stm32f4x/drivers/boards/F411CEU6/Drivers/STM32F4xx_HAL_Driver/Inc -IC:/Project/stm32_workspace/project_stm32f4x/drivers/boards/F411CEU6/Core/Inc -g -mcpu=cortex-m4 -mthumb -mfpu=fpv4-sp-d16 -mfloat-abi=hard -ffunction-sections -fdata-sections -Wall -Wextra -Wno-unused-parameter -Og -g3 -ggdb -o board_bsp\\CMakeFiles\\hal.dir\\Drivers\\STM32F4xx_HAL_Driver\\Src\\stm32f4xx_hal_exti.c.obj -c C:\\Project\\stm32_workspace\\project_stm32f4x\\drivers\\boards\\F411CEU6\\Drivers\\STM32F4xx_HAL_Driver\\Src\\stm32f4xx_hal_exti.c",
+  "file": "C:\\Project\\stm32_workspace\\project_stm32f4x\\drivers\\boards\\F411CEU6\\Drivers\\STM32F4xx_HAL_Driver\\Src\\stm32f4xx_hal_exti.c",
+  "output": "board_bsp\\CMakeFiles\\hal.dir\\Drivers\\STM32F4xx_HAL_Driver\\Src\\stm32f4xx_hal_exti.c.obj"
+},
+{
+  "directory": "C:/Project/stm32_workspace/project_stm32f4x/build/f411-sd-card-basic-debug",
+  "command": "C:\\Project\\stm32_workspace\\project_stm32f4x\\toolchains\\armcc\\bin\\arm-none-eabi-gcc.exe -DSTM32F411xE -DUSE_HAL_DRIVER -IC:/Project/stm32_workspace/project_stm32f4x/drivers/boards/F411CEU6/Drivers/CMSIS/Include -IC:/Project/stm32_workspace/project_stm32f4x/drivers/boards/F411CEU6/Drivers/CMSIS/Device/ST/STM32F4xx/Include -IC:/Project/stm32_workspace/project_stm32f4x/drivers/boards/F411CEU6/Drivers/STM32F4xx_HAL_Driver/Inc -IC:/Project/stm32_workspace/project_stm32f4x/drivers/boards/F411CEU6/Core/Inc -g -mcpu=cortex-m4 -mthumb -mfpu=fpv4-sp-d16 -mfloat-abi=hard -ffunction-sections -fdata-sections -Wall -Wextra -Wno-unused-parameter -Og -g3 -ggdb -o board_bsp\\CMakeFiles\\hal.dir\\Drivers\\STM32F4xx_HAL_Driver\\Src\\stm32f4xx_hal_flash.c.obj -c C:\\Project\\stm32_workspace\\project_stm32f4x\\drivers\\boards\\F411CEU6\\Drivers\\STM32F4xx_HAL_Driver\\Src\\stm32f4xx_hal_flash.c",
+  "file": "C:\\Project\\stm32_workspace\\project_stm32f4x\\drivers\\boards\\F411CEU6\\Drivers\\STM32F4xx_HAL_Driver\\Src\\stm32f4xx_hal_flash.c",
+  "output": "board_bsp\\CMakeFiles\\hal.dir\\Drivers\\STM32F4xx_HAL_Driver\\Src\\stm32f4xx_hal_flash.c.obj"
+},
+{
+  "directory": "C:/Project/stm32_workspace/project_stm32f4x/build/f411-sd-card-basic-debug",
+  "command": "C:\\Project\\stm32_workspace\\project_stm32f4x\\toolchains\\armcc\\bin\\arm-none-eabi-gcc.exe -DSTM32F411xE -DUSE_HAL_DRIVER -IC:/Project/stm32_workspace/project_stm32f4x/drivers/boards/F411CEU6/Drivers/CMSIS/Include -IC:/Project/stm32_workspace/project_stm32f4x/drivers/boards/F411CEU6/Drivers/CMSIS/Device/ST/STM32F4xx/Include -IC:/Project/stm32_workspace/project_stm32f4x/drivers/boards/F411CEU6/Drivers/STM32F4xx_HAL_Driver/Inc -IC:/Project/stm32_workspace/project_stm32f4x/drivers/boards/F411CEU6/Core/Inc -g -mcpu=cortex-m4 -mthumb -mfpu=fpv4-sp-d16 -mfloat-abi=hard -ffunction-sections -fdata-sections -Wall -Wextra -Wno-unused-parameter -Og -g3 -ggdb -o board_bsp\\CMakeFiles\\hal.dir\\Drivers\\STM32F4xx_HAL_Driver\\Src\\stm32f4xx_hal_flash_ex.c.obj -c C:\\Project\\stm32_workspace\\project_stm32f4x\\drivers\\boards\\F411CEU6\\Drivers\\STM32F4xx_HAL_Driver\\Src\\stm32f4xx_hal_flash_ex.c",
+  "file": "C:\\Project\\stm32_workspace\\project_stm32f4x\\drivers\\boards\\F411CEU6\\Drivers\\STM32F4xx_HAL_Driver\\Src\\stm32f4xx_hal_flash_ex.c",
+  "output": "board_bsp\\CMakeFiles\\hal.dir\\Drivers\\STM32F4xx_HAL_Driver\\Src\\stm32f4xx_hal_flash_ex.c.obj"
+},
+{
+  "directory": "C:/Project/stm32_workspace/project_stm32f4x/build/f411-sd-card-basic-debug",
+  "command": "C:\\Project\\stm32_workspace\\project_stm32f4x\\toolchains\\armcc\\bin\\arm-none-eabi-gcc.exe -DSTM32F411xE -DUSE_HAL_DRIVER -IC:/Project/stm32_workspace/project_stm32f4x/drivers/boards/F411CEU6/Drivers/CMSIS/Include -IC:/Project/stm32_workspace/project_stm32f4x/drivers/boards/F411CEU6/Drivers/CMSIS/Device/ST/STM32F4xx/Include -IC:/Project/stm32_workspace/project_stm32f4x/drivers/boards/F411CEU6/Drivers/STM32F4xx_HAL_Driver/Inc -IC:/Project/stm32_workspace/project_stm32f4x/drivers/boards/F411CEU6/Core/Inc -g -mcpu=cortex-m4 -mthumb -mfpu=fpv4-sp-d16 -mfloat-abi=hard -ffunction-sections -fdata-sections -Wall -Wextra -Wno-unused-parameter -Og -g3 -ggdb -o board_bsp\\CMakeFiles\\hal.dir\\Drivers\\STM32F4xx_HAL_Driver\\Src\\stm32f4xx_hal_flash_ramfunc.c.obj -c C:\\Project\\stm32_workspace\\project_stm32f4x\\drivers\\boards\\F411CEU6\\Drivers\\STM32F4xx_HAL_Driver\\Src\\stm32f4xx_hal_flash_ramfunc.c",
+  "file": "C:\\Project\\stm32_workspace\\project_stm32f4x\\drivers\\boards\\F411CEU6\\Drivers\\STM32F4xx_HAL_Driver\\Src\\stm32f4xx_hal_flash_ramfunc.c",
+  "output": "board_bsp\\CMakeFiles\\hal.dir\\Drivers\\STM32F4xx_HAL_Driver\\Src\\stm32f4xx_hal_flash_ramfunc.c.obj"
+},
+{
+  "directory": "C:/Project/stm32_workspace/project_stm32f4x/build/f411-sd-card-basic-debug",
+  "command": "C:\\Project\\stm32_workspace\\project_stm32f4x\\toolchains\\armcc\\bin\\arm-none-eabi-gcc.exe -DSTM32F411xE -DUSE_HAL_DRIVER -IC:/Project/stm32_workspace/project_stm32f4x/drivers/boards/F411CEU6/Drivers/CMSIS/Include -IC:/Project/stm32_workspace/project_stm32f4x/drivers/boards/F411CEU6/Drivers/CMSIS/Device/ST/STM32F4xx/Include -IC:/Project/stm32_workspace/project_stm32f4x/drivers/boards/F411CEU6/Drivers/STM32F4xx_HAL_Driver/Inc -IC:/Project/stm32_workspace/project_stm32f4x/drivers/boards/F411CEU6/Core/Inc -g -mcpu=cortex-m4 -mthumb -mfpu=fpv4-sp-d16 -mfloat-abi=hard -ffunction-sections -fdata-sections -Wall -Wextra -Wno-unused-parameter -Og -g3 -ggdb -o board_bsp\\CMakeFiles\\hal.dir\\Drivers\\STM32F4xx_HAL_Driver\\Src\\stm32f4xx_hal_gpio.c.obj -c C:\\Project\\stm32_workspace\\project_stm32f4x\\drivers\\boards\\F411CEU6\\Drivers\\STM32F4xx_HAL_Driver\\Src\\stm32f4xx_hal_gpio.c",
+  "file": "C:\\Project\\stm32_workspace\\project_stm32f4x\\drivers\\boards\\F411CEU6\\Drivers\\STM32F4xx_HAL_Driver\\Src\\stm32f4xx_hal_gpio.c",
+  "output": "board_bsp\\CMakeFiles\\hal.dir\\Drivers\\STM32F4xx_HAL_Driver\\Src\\stm32f4xx_hal_gpio.c.obj"
+},
+{
+  "directory": "C:/Project/stm32_workspace/project_stm32f4x/build/f411-sd-card-basic-debug",
+  "command": "C:\\Project\\stm32_workspace\\project_stm32f4x\\toolchains\\armcc\\bin\\arm-none-eabi-gcc.exe -DSTM32F411xE -DUSE_HAL_DRIVER -IC:/Project/stm32_workspace/project_stm32f4x/drivers/boards/F411CEU6/Drivers/CMSIS/Include -IC:/Project/stm32_workspace/project_stm32f4x/drivers/boards/F411CEU6/Drivers/CMSIS/Device/ST/STM32F4xx/Include -IC:/Project/stm32_workspace/project_stm32f4x/drivers/boards/F411CEU6/Drivers/STM32F4xx_HAL_Driver/Inc -IC:/Project/stm32_workspace/project_stm32f4x/drivers/boards/F411CEU6/Core/Inc -g -mcpu=cortex-m4 -mthumb -mfpu=fpv4-sp-d16 -mfloat-abi=hard -ffunction-sections -fdata-sections -Wall -Wextra -Wno-unused-parameter -Og -g3 -ggdb -o board_bsp\\CMakeFiles\\hal.dir\\Drivers\\STM32F4xx_HAL_Driver\\Src\\stm32f4xx_hal_pwr.c.obj -c C:\\Project\\stm32_workspace\\project_stm32f4x\\drivers\\boards\\F411CEU6\\Drivers\\STM32F4xx_HAL_Driver\\Src\\stm32f4xx_hal_pwr.c",
+  "file": "C:\\Project\\stm32_workspace\\project_stm32f4x\\drivers\\boards\\F411CEU6\\Drivers\\STM32F4xx_HAL_Driver\\Src\\stm32f4xx_hal_pwr.c",
+  "output": "board_bsp\\CMakeFiles\\hal.dir\\Drivers\\STM32F4xx_HAL_Driver\\Src\\stm32f4xx_hal_pwr.c.obj"
+},
+{
+  "directory": "C:/Project/stm32_workspace/project_stm32f4x/build/f411-sd-card-basic-debug",
+  "command": "C:\\Project\\stm32_workspace\\project_stm32f4x\\toolchains\\armcc\\bin\\arm-none-eabi-gcc.exe -DSTM32F411xE -DUSE_HAL_DRIVER -IC:/Project/stm32_workspace/project_stm32f4x/drivers/boards/F411CEU6/Drivers/CMSIS/Include -IC:/Project/stm32_workspace/project_stm32f4x/drivers/boards/F411CEU6/Drivers/CMSIS/Device/ST/STM32F4xx/Include -IC:/Project/stm32_workspace/project_stm32f4x/drivers/boards/F411CEU6/Drivers/STM32F4xx_HAL_Driver/Inc -IC:/Project/stm32_workspace/project_stm32f4x/drivers/boards/F411CEU6/Core/Inc -g -mcpu=cortex-m4 -mthumb -mfpu=fpv4-sp-d16 -mfloat-abi=hard -ffunction-sections -fdata-sections -Wall -Wextra -Wno-unused-parameter -Og -g3 -ggdb -o board_bsp\\CMakeFiles\\hal.dir\\Drivers\\STM32F4xx_HAL_Driver\\Src\\stm32f4xx_hal_pwr_ex.c.obj -c C:\\Project\\stm32_workspace\\project_stm32f4x\\drivers\\boards\\F411CEU6\\Drivers\\STM32F4xx_HAL_Driver\\Src\\stm32f4xx_hal_pwr_ex.c",
+  "file": "C:\\Project\\stm32_workspace\\project_stm32f4x\\drivers\\boards\\F411CEU6\\Drivers\\STM32F4xx_HAL_Driver\\Src\\stm32f4xx_hal_pwr_ex.c",
+  "output": "board_bsp\\CMakeFiles\\hal.dir\\Drivers\\STM32F4xx_HAL_Driver\\Src\\stm32f4xx_hal_pwr_ex.c.obj"
+},
+{
+  "directory": "C:/Project/stm32_workspace/project_stm32f4x/build/f411-sd-card-basic-debug",
+  "command": "C:\\Project\\stm32_workspace\\project_stm32f4x\\toolchains\\armcc\\bin\\arm-none-eabi-gcc.exe -DSTM32F411xE -DUSE_HAL_DRIVER -IC:/Project/stm32_workspace/project_stm32f4x/drivers/boards/F411CEU6/Drivers/CMSIS/Include -IC:/Project/stm32_workspace/project_stm32f4x/drivers/boards/F411CEU6/Drivers/CMSIS/Device/ST/STM32F4xx/Include -IC:/Project/stm32_workspace/project_stm32f4x/drivers/boards/F411CEU6/Drivers/STM32F4xx_HAL_Driver/Inc -IC:/Project/stm32_workspace/project_stm32f4x/drivers/boards/F411CEU6/Core/Inc -g -mcpu=cortex-m4 -mthumb -mfpu=fpv4-sp-d16 -mfloat-abi=hard -ffunction-sections -fdata-sections -Wall -Wextra -Wno-unused-parameter -Og -g3 -ggdb -o board_bsp\\CMakeFiles\\hal.dir\\Drivers\\STM32F4xx_HAL_Driver\\Src\\stm32f4xx_hal_rcc.c.obj -c C:\\Project\\stm32_workspace\\project_stm32f4x\\drivers\\boards\\F411CEU6\\Drivers\\STM32F4xx_HAL_Driver\\Src\\stm32f4xx_hal_rcc.c",
+  "file": "C:\\Project\\stm32_workspace\\project_stm32f4x\\drivers\\boards\\F411CEU6\\Drivers\\STM32F4xx_HAL_Driver\\Src\\stm32f4xx_hal_rcc.c",
+  "output": "board_bsp\\CMakeFiles\\hal.dir\\Drivers\\STM32F4xx_HAL_Driver\\Src\\stm32f4xx_hal_rcc.c.obj"
+},
+{
+  "directory": "C:/Project/stm32_workspace/project_stm32f4x/build/f411-sd-card-basic-debug",
+  "command": "C:\\Project\\stm32_workspace\\project_stm32f4x\\toolchains\\armcc\\bin\\arm-none-eabi-gcc.exe -DSTM32F411xE -DUSE_HAL_DRIVER -IC:/Project/stm32_workspace/project_stm32f4x/drivers/boards/F411CEU6/Drivers/CMSIS/Include -IC:/Project/stm32_workspace/project_stm32f4x/drivers/boards/F411CEU6/Drivers/CMSIS/Device/ST/STM32F4xx/Include -IC:/Project/stm32_workspace/project_stm32f4x/drivers/boards/F411CEU6/Drivers/STM32F4xx_HAL_Driver/Inc -IC:/Project/stm32_workspace/project_stm32f4x/drivers/boards/F411CEU6/Core/Inc -g -mcpu=cortex-m4 -mthumb -mfpu=fpv4-sp-d16 -mfloat-abi=hard -ffunction-sections -fdata-sections -Wall -Wextra -Wno-unused-parameter -Og -g3 -ggdb -o board_bsp\\CMakeFiles\\hal.dir\\Drivers\\STM32F4xx_HAL_Driver\\Src\\stm32f4xx_hal_rcc_ex.c.obj -c C:\\Project\\stm32_workspace\\project_stm32f4x\\drivers\\boards\\F411CEU6\\Drivers\\STM32F4xx_HAL_Driver\\Src\\stm32f4xx_hal_rcc_ex.c",
+  "file": "C:\\Project\\stm32_workspace\\project_stm32f4x\\drivers\\boards\\F411CEU6\\Drivers\\STM32F4xx_HAL_Driver\\Src\\stm32f4xx_hal_rcc_ex.c",
+  "output": "board_bsp\\CMakeFiles\\hal.dir\\Drivers\\STM32F4xx_HAL_Driver\\Src\\stm32f4xx_hal_rcc_ex.c.obj"
+},
+{
+  "directory": "C:/Project/stm32_workspace/project_stm32f4x/build/f411-sd-card-basic-debug",
+  "command": "C:\\Project\\stm32_workspace\\project_stm32f4x\\toolchains\\armcc\\bin\\arm-none-eabi-gcc.exe -DSTM32F411xE -DUSE_HAL_DRIVER -IC:/Project/stm32_workspace/project_stm32f4x/drivers/boards/F411CEU6/Drivers/CMSIS/Include -IC:/Project/stm32_workspace/project_stm32f4x/drivers/boards/F411CEU6/Drivers/CMSIS/Device/ST/STM32F4xx/Include -IC:/Project/stm32_workspace/project_stm32f4x/drivers/boards/F411CEU6/Drivers/STM32F4xx_HAL_Driver/Inc -IC:/Project/stm32_workspace/project_stm32f4x/drivers/boards/F411CEU6/Core/Inc -g -mcpu=cortex-m4 -mthumb -mfpu=fpv4-sp-d16 -mfloat-abi=hard -ffunction-sections -fdata-sections -Wall -Wextra -Wno-unused-parameter -Og -g3 -ggdb -o board_bsp\\CMakeFiles\\hal.dir\\Drivers\\STM32F4xx_HAL_Driver\\Src\\stm32f4xx_hal_spi.c.obj -c C:\\Project\\stm32_workspace\\project_stm32f4x\\drivers\\boards\\F411CEU6\\Drivers\\STM32F4xx_HAL_Driver\\Src\\stm32f4xx_hal_spi.c",
+  "file": "C:\\Project\\stm32_workspace\\project_stm32f4x\\drivers\\boards\\F411CEU6\\Drivers\\STM32F4xx_HAL_Driver\\Src\\stm32f4xx_hal_spi.c",
+  "output": "board_bsp\\CMakeFiles\\hal.dir\\Drivers\\STM32F4xx_HAL_Driver\\Src\\stm32f4xx_hal_spi.c.obj"
+},
+{
+  "directory": "C:/Project/stm32_workspace/project_stm32f4x/build/f411-sd-card-basic-debug",
+  "command": "C:\\Project\\stm32_workspace\\project_stm32f4x\\toolchains\\armcc\\bin\\arm-none-eabi-gcc.exe -DSTM32F411xE -DUSE_HAL_DRIVER -IC:/Project/stm32_workspace/project_stm32f4x/drivers/boards/F411CEU6/Drivers/CMSIS/Include -IC:/Project/stm32_workspace/project_stm32f4x/drivers/boards/F411CEU6/Drivers/CMSIS/Device/ST/STM32F4xx/Include -IC:/Project/stm32_workspace/project_stm32f4x/drivers/boards/F411CEU6/Drivers/STM32F4xx_HAL_Driver/Inc -IC:/Project/stm32_workspace/project_stm32f4x/drivers/boards/F411CEU6/Core/Inc -g -mcpu=cortex-m4 -mthumb -mfpu=fpv4-sp-d16 -mfloat-abi=hard -ffunction-sections -fdata-sections -Wall -Wextra -Wno-unused-parameter -Og -g3 -ggdb -o board_bsp\\CMakeFiles\\core.dir\\Core\\Src\\dma.c.obj -c C:\\Project\\stm32_workspace\\project_stm32f4x\\drivers\\boards\\F411CEU6\\Core\\Src\\dma.c",
+  "file": "C:\\Project\\stm32_workspace\\project_stm32f4x\\drivers\\boards\\F411CEU6\\Core\\Src\\dma.c",
+  "output": "board_bsp\\CMakeFiles\\core.dir\\Core\\Src\\dma.c.obj"
+},
+{
+  "directory": "C:/Project/stm32_workspace/project_stm32f4x/build/f411-sd-card-basic-debug",
+  "command": "C:\\Project\\stm32_workspace\\project_stm32f4x\\toolchains\\armcc\\bin\\arm-none-eabi-gcc.exe -DSTM32F411xE -DUSE_HAL_DRIVER -IC:/Project/stm32_workspace/project_stm32f4x/drivers/boards/F411CEU6/Drivers/CMSIS/Include -IC:/Project/stm32_workspace/project_stm32f4x/drivers/boards/F411CEU6/Drivers/CMSIS/Device/ST/STM32F4xx/Include -IC:/Project/stm32_workspace/project_stm32f4x/drivers/boards/F411CEU6/Drivers/STM32F4xx_HAL_Driver/Inc -IC:/Project/stm32_workspace/project_stm32f4x/drivers/boards/F411CEU6/Core/Inc -g -mcpu=cortex-m4 -mthumb -mfpu=fpv4-sp-d16 -mfloat-abi=hard -ffunction-sections -fdata-sections -Wall -Wextra -Wno-unused-parameter -Og -g3 -ggdb -o board_bsp\\CMakeFiles\\core.dir\\Core\\Src\\gpio.c.obj -c C:\\Project\\stm32_workspace\\project_stm32f4x\\drivers\\boards\\F411CEU6\\Core\\Src\\gpio.c",
+  "file": "C:\\Project\\stm32_workspace\\project_stm32f4x\\drivers\\boards\\F411CEU6\\Core\\Src\\gpio.c",
+  "output": "board_bsp\\CMakeFiles\\core.dir\\Core\\Src\\gpio.c.obj"
+},
+{
+  "directory": "C:/Project/stm32_workspace/project_stm32f4x/build/f411-sd-card-basic-debug",
+  "command": "C:\\Project\\stm32_workspace\\project_stm32f4x\\toolchains\\armcc\\bin\\arm-none-eabi-gcc.exe -DSTM32F411xE -DUSE_HAL_DRIVER -IC:/Project/stm32_workspace/project_stm32f4x/drivers/boards/F411CEU6/Drivers/CMSIS/Include -IC:/Project/stm32_workspace/project_stm32f4x/drivers/boards/F411CEU6/Drivers/CMSIS/Device/ST/STM32F4xx/Include -IC:/Project/stm32_workspace/project_stm32f4x/drivers/boards/F411CEU6/Drivers/STM32F4xx_HAL_Driver/Inc -IC:/Project/stm32_workspace/project_stm32f4x/drivers/boards/F411CEU6/Core/Inc -g -mcpu=cortex-m4 -mthumb -mfpu=fpv4-sp-d16 -mfloat-abi=hard -ffunction-sections -fdata-sections -Wall -Wextra -Wno-unused-parameter -Og -g3 -ggdb -o board_bsp\\CMakeFiles\\core.dir\\Core\\Src\\spi.c.obj -c C:\\Project\\stm32_workspace\\project_stm32f4x\\drivers\\boards\\F411CEU6\\Core\\Src\\spi.c",
+  "file": "C:\\Project\\stm32_workspace\\project_stm32f4x\\drivers\\boards\\F411CEU6\\Core\\Src\\spi.c",
+  "output": "board_bsp\\CMakeFiles\\core.dir\\Core\\Src\\spi.c.obj"
+},
+{
+  "directory": "C:/Project/stm32_workspace/project_stm32f4x/build/f411-sd-card-basic-debug",
+  "command": "C:\\Project\\stm32_workspace\\project_stm32f4x\\toolchains\\armcc\\bin\\arm-none-eabi-gcc.exe -DSTM32F411xE -DUSE_HAL_DRIVER -IC:/Project/stm32_workspace/project_stm32f4x/drivers/boards/F411CEU6/Drivers/CMSIS/Include -IC:/Project/stm32_workspace/project_stm32f4x/drivers/boards/F411CEU6/Drivers/CMSIS/Device/ST/STM32F4xx/Include -IC:/Project/stm32_workspace/project_stm32f4x/drivers/boards/F411CEU6/Drivers/STM32F4xx_HAL_Driver/Inc -IC:/Project/stm32_workspace/project_stm32f4x/drivers/boards/F411CEU6/Core/Inc -g -mcpu=cortex-m4 -mthumb -mfpu=fpv4-sp-d16 -mfloat-abi=hard -ffunction-sections -fdata-sections -Wall -Wextra -Wno-unused-parameter -Og -g3 -ggdb -o board_bsp\\CMakeFiles\\core.dir\\Core\\Src\\stm32f4xx_hal_msp.c.obj -c C:\\Project\\stm32_workspace\\project_stm32f4x\\drivers\\boards\\F411CEU6\\Core\\Src\\stm32f4xx_hal_msp.c",
+  "file": "C:\\Project\\stm32_workspace\\project_stm32f4x\\drivers\\boards\\F411CEU6\\Core\\Src\\stm32f4xx_hal_msp.c",
+  "output": "board_bsp\\CMakeFiles\\core.dir\\Core\\Src\\stm32f4xx_hal_msp.c.obj"
+}
+]
